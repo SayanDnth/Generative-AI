@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Generator</title>
+</head>
+<body>
+    <h1>CSV Generator</h1>
+    <form id="csvForm">
+        <label for="fileName">CSV File Name:</label>
+        <input type="text" id="fileName" required><br>
+        <label for="numRows">Number of Rows:</label>
+        <input type="number" id="numRows" required><br>
+        <label for="numColumns">Number of Columns:</label>
+        <input type="number" id="numColumns" required><br>
+        <div id="columnInputs">
+            <!-- JavaScript will populate this section -->
+        </div>
+        <button type="button" id="generateBtn">Generate CSV</button>
+    </form>
+
+    <hr>
+
+    <div id="output">
+        <!-- JavaScript will populate this section -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
